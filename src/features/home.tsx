@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Free from '../components/Free'
+import ComparisonTable from '../components/ToggleTable'
 
-const home = () => {
+const Home = () => {
   return (
-    <div><Navbar/>
-    <Free/>
+    <div >
+      <Navbar/>
+      <ComparisonTable/>
     </div>
   )
 }
 
-export default home
+export default Home
